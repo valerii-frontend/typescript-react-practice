@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import NewTodo from "./components/NewTodo";
 import Todos from "./components/Todos";
