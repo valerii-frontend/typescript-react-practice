@@ -4,10 +4,16 @@
 	padding: 1rem;
 	background-color: #f7f5ef;
 	transition: 0.3s cubic-bezier(1, 0.165, 0.84, 0.44);
+	border-radius: 0.3rem;
 }
 .todos-item:hover {
-	background-color: #e8e6e3;
 	transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 	transform: scale(1.03);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	cursor: pointer;
+}
+
+.done {
+	text-decoration: line-through;
+	background-color: #9fe2a2;
 }
